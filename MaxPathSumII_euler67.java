@@ -43,7 +43,7 @@ public class MaxPathSumII_euler67 {
     }
 
     public int[][] setupFileResource(String fileName) throws IOException {
-        return Files.lines(Paths.get("C:\\Users\\moumi\\Development\\JavaTest2\\src\\com\\moumita\\ProjectEuler\\" + fileName))
+        return Files.lines(Paths.get(fileName))
                 .map(s -> stream(s.trim().split("\\s+"))
                         .mapToInt(Integer::parseInt)
                         .toArray())
