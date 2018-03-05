@@ -5,7 +5,6 @@ import org.junit.Test;
 
 import java.math.BigInteger;
 
-//https://www.hackerrank.com/contests/projecteuler/challenges/euler036/copy-from/1306327115
 /*
  * https://projecteuler.net/problem=56
  * Powerful digit sum
