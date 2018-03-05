@@ -28,12 +28,12 @@ public class DoubleBasedPalindrome_euler36 {
     }
 
 
-    public static boolean isPalindrome(String s) {
-        char[] word = s.toCharArray();
+   public static boolean isPalindrome(String input) {
+        char[] charArray = input.toCharArray();
         int start = 0;
-        int end = word.length - 1;
+        int end = charArray.length - 1;
         while (end > start) {
-            if (word[start] != word[end]) {
+            if (charArray[start] != charArray[end]) {
                 return false;
             }
             ++start;
